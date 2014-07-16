@@ -1,23 +1,19 @@
  #!/usr/bin/env ruby
 
 numbers = (1..100).to_a
-name = ['Fizz', 'Buzz', 'FizzBuzz']
 
-numbers.each do |numbers|
-
-  number = numbers
-  three = number % 3
-  five  = number % 5
-
-  if three == 0 && five == 0
-    puts name[2]
-  elsif three == 0
-    puts name[1]
-  elsif five == 0
-    puts name[0]
+fizzbuzz = numbers.map do |numbers|
+  if numbers % 3 == 0 && numbers % 5 == 0
+    "FizzBuzz"
+  elsif numbers % 3 == 0
+    "Fizz"
+  elsif numbers % 5 == 0
+    "Buzz"
   else
-    puts number
+    numbers
   end
-
 end
+
+puts fizzbuzz
+
 
