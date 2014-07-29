@@ -1,4 +1,4 @@
- #!/usr/bin/env ruby
+#!/usr/bin/env ruby
 
 numbers = (1..100).to_a
 
