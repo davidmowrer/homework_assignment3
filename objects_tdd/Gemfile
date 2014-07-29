@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'ruby_gntp'
+
+gem 'guard-rubocop'
+gem 'guard-rspec'
+
