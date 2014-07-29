@@ -9,9 +9,9 @@ while count != 100
   if three == 0 && five == 0
     puts 'FizzBuzz'
   elsif three == 0
-    puts 'Buzz'
-  elsif five == 0
     puts 'Fizz'
+  elsif five == 0
+    puts 'Buzz'
   else
     puts count
   end
