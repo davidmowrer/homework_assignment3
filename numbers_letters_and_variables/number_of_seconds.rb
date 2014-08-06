@@ -29,4 +29,6 @@ puts '  %d seconds in an hour,' % seconds_in_hour
 puts '  %d seconds in a day,' % seconds_in_day
 puts '  %d seconds in a week' % seconds_in_week
 puts "That means when you turn %s, you've been alive for %s seconds," % [age_20, seconds_age_20]
+puts "and if you make it to %s, you will have lived %s seconds.  Make them count!" % [age_100, seconds_age_100]
 puts "That means when you turn %s, you've been alive for %s seconds.  Make them count!" % [age_100, seconds_age_100]
+
