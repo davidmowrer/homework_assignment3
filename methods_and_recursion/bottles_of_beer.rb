@@ -10,7 +10,7 @@ while bottles != 1
   puts
 
   if bottles == 1
-    puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer."
+    puts "#{bottles} bottle of beer on the wall, #{bottles} bottle of beer."
     puts 'Take one down and pass it around, no more bottles of beer on the wall.'
     puts
     puts 'No more bottles of beer on the wall, no more bottles of beer.'
