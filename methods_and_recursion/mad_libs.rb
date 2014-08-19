@@ -27,7 +27,7 @@ plural_noun4 = ask_question('Give me another plural noun? ')
 
 puts
 puts "A vacation is when you take a trip to some #{adjective1} place"
-puts "with your #{adjective2} family.  Usually you can go to some place"
+puts "with your #{adjective2} family.  Usually you go to some place"
 puts "that is near a/an #{noun1} or up on a/an #{noun2}."
 puts "A good vacation place is one where you can ride #{plural_noun1}"
 puts "or play #{game} or go hunting for #{plural_noun2}.  I like"
