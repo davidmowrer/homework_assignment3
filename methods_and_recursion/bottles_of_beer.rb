@@ -4,9 +4,9 @@ bottles = 99
 
 while bottles != 1
 
-  puts "#{bottles} bottles of beer on the wall, #{bottles} bottle of beer."
+  puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer."
   bottles -= 1
-  puts "Take one down and pass it around, #{bottles} bottle of beer on the wall."
+  puts "Take one down and pass it around, #{bottles} bottles of beer on the wall."
   puts
 
   if bottles == 1
